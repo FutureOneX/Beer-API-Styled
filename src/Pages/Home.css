@@ -1,0 +1,27 @@
+.home-section-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.home-article-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #FFF897;
+  margin: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  width: 50px;
+}
+.home-article-container:hover {
+  transform: translateY(-5px);
+}
+
+
+

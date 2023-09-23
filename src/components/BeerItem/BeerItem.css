@@ -1,0 +1,41 @@
+/* BeerItem.css */
+
+.Beer-item {
+  display: flex;
+  align-items: center;
+  background-color: #1b1b1b;
+  border: 1px solid #000000;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+  border-radius: 14px;
+  height: 200px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.Beer-item:hover {
+  transform: translateY(-5px);
+}
+
+.Beer-item img {
+  max-width: 100px;
+  max-height: 100px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  padding-right: 30px;
+}
+
+.Beer-item a {
+  text-decoration: none;
+  background-color: #a48f7a;
+  color: #ffffff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.Beer-item a:hover {
+  background-color: #847261;
+}
